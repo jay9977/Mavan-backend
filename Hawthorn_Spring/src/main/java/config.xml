@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<!-- bean definitions here -->
+	<!--here the bean is used to creat an object -->
+	<bean class="com.ts.Hawthorn_Spring.Student" name="std"></bean>
+	<!-- here class means ehich class files object you wants to create and name
+	means assign id to it by calling which value will call-->
+	<bean class="com.ts.Hawthorn_Spring.Teacher" name="tch"></bean>
+
+</beans>
