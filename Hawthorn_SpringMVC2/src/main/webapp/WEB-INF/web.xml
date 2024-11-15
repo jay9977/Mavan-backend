@@ -1,0 +1,16 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	<!-- servlet mapping-->
+	<servlet>
+		<servlet-name>config</servlet-name>
+		<!-- Add tis org.springframework.web.servlet.DispatcherServlet by click
+		ctr+shift+t then serch dispatcyers enter and copy past-->
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>config</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+</web-app>
